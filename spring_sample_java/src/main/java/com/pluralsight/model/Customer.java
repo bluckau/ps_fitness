@@ -1,26 +1,33 @@
 package com.pluralsight.model;
 
-public class Customer {
+public class Customer
+{
 
-	private String firstName;
-	private String lastName;
-	
-	public Customer() {
-		
+	private String	firstName;
+	private String	lastName;
+
+	public Customer()
+	{
+
 	}
-	
-	
-	
-	public String getFirstName() {
+
+	public String getFirstName()
+	{
 		return firstName;
 	}
-	public String getLastName() {
+
+	public String getLastName()
+	{
 		return lastName;
 	}
-	public void setFirstName(String firstName) {
+
+	public void setFirstName(String firstName)
+	{
 		this.firstName = firstName;
 	}
-	public void setLastName(String lastName) {
+
+	public void setLastName(String lastName)
+	{
 		this.lastName = lastName;
 	}
 }
